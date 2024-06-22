@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.logo {
+    display: flex;
+    align-items: center; 
+   
+}
+
+
+
+form {
+    text-align: center;
+    background-color: white;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 20px #f37021;
+}
+table{
+    text-align: left;
+    border: 1px solid #f37021;
+    border-collapse: collapse;
+}
+tr,td{
+    padding: 1em;
+    border:1px solid #f37021;
+  
+}
+tr:hover {
+    background-color: #e7a176;
+}
+
